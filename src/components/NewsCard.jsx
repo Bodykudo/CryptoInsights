@@ -1,5 +1,6 @@
 import { Typography, Card, Avatar } from 'antd';
 import moment from 'moment';
+
 const { Text, Title } = Typography;
 
 const demoImage =

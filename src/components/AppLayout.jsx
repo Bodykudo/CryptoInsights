@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
-import Navbar from './Navbar';
 import { Layout } from 'antd';
-import { Footer } from 'antd/es/layout/layout';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 function AppLayout() {
   return (

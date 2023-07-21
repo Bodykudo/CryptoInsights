@@ -1,9 +1,12 @@
-import { Select, Row, Col, Spin } from 'antd';
-import { useGetCryptoNewsQuery } from '../services/cryptoNewsApi';
 import { useState } from 'react';
+import { Select, Row, Col } from 'antd';
+
+import { useGetCryptoNewsQuery } from '../services/cryptoNewsApi';
 import { useGetCryptosQuery } from '../services/cryptoApi';
+
 import NewsCard from '../components/NewsCard';
 import Loader from '../components/Loader';
+
 const { Option } = Select;
 
 function News({ simplified }) {

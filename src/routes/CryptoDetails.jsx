@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import millify from 'millify';
 import { Col, Typography, Select } from 'antd';
@@ -7,12 +7,11 @@ import {
   useGetCryptoDetailsQuery,
   useGetCryptoHistoryQuery,
 } from '../services/cryptoApi';
+
 import Loader from '../components/Loader';
 import LineChart from '../components/LineChart';
 import CryptoStats from '../components/CryptoStats';
 import CryptoLinks from '../components/CryptoLinks';
-
-const { Option } = Select;
 
 function CryptoDetails() {
   const { coinId } = useParams();
@@ -46,7 +45,7 @@ function CryptoDetails() {
         onChange={(value) => setTimePeriod(value)}
       >
         {times.map((time) => (
-          <Option key={time}>{time}</Option>
+          <Select.Option key={time}>{time}</Select.Option>
         ))}
       </Select>
 

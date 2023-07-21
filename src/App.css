@@ -385,38 +385,3 @@ a:hover {
   padding: 20px;
   align-items: center;
 }
-
-.page-not-found {
-  height: 100vh;
-  background-color: var(--bgSecondary);
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.container-not-found {
-  background-color: var(--bgPrimary);
-  border-radius: 8px;
-  padding: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.title-not-found {
-  color: var(--primary) !important;
-}
-
-.text-not-found {
-  font-size: 18px;
-  margin: 0 0 20px;
-}
-
-.image-not-found {
-  max-width: 400px;
-  width: 100%;
-  height: auto;
-  margin-bottom: 5px;
-}

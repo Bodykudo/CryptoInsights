@@ -1,8 +1,45 @@
-# React + Vite
+<div align="center">
+  <img src="public/icon.png" height="200px" />
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# CryptoInsight
 
-Currently, two official plugins are available:
+Welcome to CryptoInsight! CryptoInsight is a user-friendly web application where you can track everything related to cryptocurrencies. You can access details about all cryptocurrencies, explore historical data on their prices, and stay up-to-date with the latest news about cryptocurrencies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
+
+CryptoInsight is deployed to Vercel. You can try it on the following URL: [cryptoinsight.vercel.app](https://cryptoinsight.vercel.app/).
+
+<div align="center">
+  <img src="https://i.imgur.com/zp0HL17.png" />
+</div>
+
+## Technologies Used
+
+- React.js
+- Ant Design
+- Redux Toolkit (RTK)
+- Chart.js
+- RapidAPI
+
+## Installation
+
+To install and run TravelloGo locally, follow these steps:
+
+1. Clone the project repository.
+2. Navigate to the project directory.
+3. Install the necessary dependencies by running the following command:
+
+```
+npm install
+```
+
+4. Replace the environment variables with your own API keys.
+
+5. Run the project by executing the following command:
+
+```
+npm run dev
+```
+
+6. Access the application by visintg http://127.0.0.1:5173

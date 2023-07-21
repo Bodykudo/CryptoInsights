@@ -1,5 +1,6 @@
 import { Typography } from 'antd';
 import { useGetCryptosQuery } from '../services/cryptoApi';
+
 import Loader from '../components/Loader';
 import Statistics from '../components/Statistics';
 import NewsList from '../components/NewsList';

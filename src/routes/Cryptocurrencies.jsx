@@ -1,8 +1,10 @@
-import { Card, Row, Col, Input, Spin } from 'antd';
-import { NavLink } from 'react-router-dom';
-import { useGetCryptosQuery } from '../services/cryptoApi';
 import { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import { Row, Col, Input, Spin } from 'antd';
 import InfiniteScroll from 'react-infinite-scroll-component';
+
+import { useGetCryptosQuery } from '../services/cryptoApi';
+
 import CurrencryCard from '../components/CurrencyCard';
 import Loader from '../components/Loader';
 

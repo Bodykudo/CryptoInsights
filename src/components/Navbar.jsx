@@ -1,12 +1,12 @@
-import { Avatar, Typography, Button, Menu } from 'antd';
+import { useEffect, useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
+import { Avatar, Typography, Button, Menu } from 'antd';
 import {
   HomeOutlined,
   BulbOutlined,
   FundOutlined,
   MenuOutlined,
 } from '@ant-design/icons';
-import { useEffect, useState } from 'react';
 
 function Navbar() {
   const location = useLocation();
