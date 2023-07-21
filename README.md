@@ -11,7 +11,13 @@ Welcome to CryptoInsights! CryptoInsights is a user-friendly web application whe
 CryptoInsights is deployed to Vercel. You can try it on the following URL: [cryptoinsights.vercel.app](https://cryptoinsights.vercel.app/).
 
 <div align="center">
-  <img src="https://i.imgur.com/zp0HL17.png" />
+  <img src="public/screenshots/homepage.png" width="500px" />
+</div>
+<div align="center">
+  <img src="public/screenshots/details.png" width="500px">
+</div>
+<div align="center">
+  <img src="public/screenshots/cryptos.png" width="500px" />
 </div>
 
 ## Technologies Used
