@@ -62,7 +62,7 @@ function Navbar() {
           style={{ borderRadius: '0' }}
         />
         <Typography.Title level={2} className="logo">
-          <NavLink to="home">CryptoInsight</NavLink>
+          <NavLink to="home">CryptoInsights</NavLink>
         </Typography.Title>
         <Button
           className="menu-control-container"

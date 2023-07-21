@@ -1,7 +1,7 @@
 {
-  "name": "CryptoInsight",
-  "short_name": "CryptoInsight",
-  "description": "CryptoInsight, get the latest news about cryptocurrencies right now.",
+  "name": "CryptoInsights",
+  "short_name": "CryptoInsights",
+  "description": "CryptoInsights, get the latest news about cryptocurrencies right now.",
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#001529",

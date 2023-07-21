@@ -8,7 +8,7 @@ function Footer() {
         level={5}
         style={{ color: 'white', textAlign: 'center' }}
       >
-        CryptoInsight
+        CryptoInsights
       </Typography.Title>
       <Space>
         <NavLink to="/home">Home</NavLink>

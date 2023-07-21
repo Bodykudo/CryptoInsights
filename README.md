@@ -2,13 +2,13 @@
   <img src="public/icon.png" height="200px" />
 </div>
 
-# CryptoInsight
+# CryptoInsights
 
-Welcome to CryptoInsight! CryptoInsight is a user-friendly web application where you can track everything related to cryptocurrencies. You can access details about all cryptocurrencies, explore historical data on their prices, and stay up-to-date with the latest news about cryptocurrencies.
+Welcome to CryptoInsights! CryptoInsights is a user-friendly web application where you can track everything related to cryptocurrencies. You can access details about all cryptocurrencies, explore historical data on their prices, and stay up-to-date with the latest news about cryptocurrencies.
 
 ## Demo
 
-CryptoInsight is deployed to Vercel. You can try it on the following URL: [cryptoinsight.vercel.app](https://cryptoinsight.vercel.app/).
+CryptoInsights is deployed to Vercel. You can try it on the following URL: [cryptoinsights.vercel.app](https://cryptoinsights.vercel.app/).
 
 <div align="center">
   <img src="https://i.imgur.com/zp0HL17.png" />
